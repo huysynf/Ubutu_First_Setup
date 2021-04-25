@@ -2,10 +2,12 @@
 
 sudo apt-get update && sudo apt-get upgrate -y
 sudo apt install wget git curl snapd zsh -y
+
+#chorme
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
 sudo dpkg -i google-chrome-stable_current_amd64.deb
-
+#ohmyzsh
  sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
  git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions && 
  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
@@ -48,6 +50,12 @@ sudo chmod +x /usr/local/bin/docker-compose
 sudo snap install phpstorm --classic
 sudo snap install webstorm --classic
 
-## 
+## ssh git
+ssh-keygen -t rsa -b 2048 -C "email@example.com"
 
+# php 
+sudo apt install php -y
 
+sudo apt install composer nodejs -y
+
+sudo apt install php-mysql php-gd 
