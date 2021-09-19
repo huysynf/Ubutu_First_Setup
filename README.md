@@ -59,3 +59,4 @@ sudo apt install php -y
 sudo apt install composer nodejs -y
 
 sudo apt install php-mysql php-gd 
+#install conky
