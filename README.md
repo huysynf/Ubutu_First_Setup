@@ -19,7 +19,7 @@ ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/the
 
  nano ~/.zshrc
 
- ### zsh-autosuggestions zsh-syntax-highlighting =>to plugin , spaceship=>to theme name
+ ### write:  zsh-autosuggestions zsh-syntax-highlighting => to plugin , spaceship => to theme name
 
   source ~/.zshrc
 
