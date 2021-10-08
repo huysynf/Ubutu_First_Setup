@@ -8,7 +8,7 @@ sudo apt install wget git curl snapd zsh -y
 
 ```
 
-#chorme
+# chorme
 
 ``` bash
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
@@ -17,7 +17,7 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 
 ```
 
-#ohmyzsh
+# ohmyzsh
 
  ```bash 
   sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
@@ -110,4 +110,4 @@ sudo apt install php-mysql php-gd openssl php-common php-curl php-json php-mbstr
 
 ```
 
-#install conky
+# install conky
