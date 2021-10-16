@@ -111,3 +111,10 @@ sudo apt install php-mysql php-gd openssl php-common php-curl php-json php-mbstr
 ```
 
 # install conky
+
+# install d-config
+```bash 
+sudo apt-get install -y dconf-editor
+
+
+```
