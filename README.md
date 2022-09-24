@@ -137,7 +137,17 @@ sudo apt install php8.1-{bcmath,xml,fpm,mysql,zip,intl,ldap,gd,cli,bz2,curl,mbst
 
 
 ```
+# uninstall apache 2 
 
+
+```bash 
+ sudo service apache2 stop
+ sudo apt-get purge apache2 apache2-utils
+ sudo apt-get autoremove
+$whereis apache2
+
+sudo rm -rf /etc/apache2
+```
 # install composer
 ```bash 
 curl -sS https://getcomposer.org/installer -o composer-setup.php
