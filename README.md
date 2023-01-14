@@ -98,7 +98,8 @@ sudo snap install webstorm --classic
 ```bash 
 
 ssh-keygen -t rsa -b 2048 -C "email@example.com"
-
+# or 
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 # php 
 ``` bash 
