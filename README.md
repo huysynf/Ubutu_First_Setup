@@ -245,5 +245,21 @@ sudo apt install php7.4
 sudo apt install php7.4-{cli,common,curl,zip,gd,mysql,xml,mbstring,json,intl}
 
 ```
+# apache
+```bash
+sudo apt install apache2
+sudo ufw app list
+sudo ufw allow in "Apache"
+sudo ufw status
+```
 
+# mysql 
 
+```
+sudo apt install mysql-server
+sudo mysql
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';
+exit;
+sudo mysql_secure_installation
+
+```
