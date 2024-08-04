@@ -134,7 +134,7 @@ sudo apt update && sudo apt -y upgrade
 sudo apt install lsb-release ca-certificates apt-transport-https software-properties-common -y
 sudo add-apt-repository ppa:ondrej/php
 sudo apt install php8.1 -y
-sudo apt install php8.1-{bcmath,xml,fpm,mysql,zip,intl,ldap,gd,cli,bz2,curl,mbstring,pgsql,opcache,soap,cgi} -y
+sudo apt install php8.1-{bcmath,xml,fpm,mysql,zip,intl,ldap,gd,cli,bz2,curl,mbstring,pgsql,opcache,soap,cgi,redis} -y
 
 
 ```
